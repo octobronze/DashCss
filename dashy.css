@@ -35,23 +35,37 @@ ________________
   flex-direction: row;
   justify-content: space-around;
 }
+.fche{
+  margin-top: 10px;
+  margin-left: 45%;
+  width: 0px;
+  height: 0px;
+}
+.SbuttonStyle {
+  font-size: 10px;
+  padding: 2px;
+  margin: 0px;
+  text-align: center;
+}
 .insider {
   display: flex;
   flex-direction: row;
+  text-align: center;
 }
 .buttonStyle {
   font-size: 80%;
-  padding-down: 5px;
+  padding-bottom: 5px;
   text-align: justify;
 }
 .inputStyle {
   margin-right: 5px;
 }
+.ninputStyle {
+  margin-right: 5px;
+  width: 60px;
+}
 .tableStyle {
   font-size: 80%;
-  padding: 0px;
-  margin: 0px;
-  cellpadding: 0px;
 }
 .divStyle {
   //align: middle;
@@ -72,6 +86,9 @@ ________________
 }
 .tabzConteiner {
   height: 40%;
+}
+.trStyle{
+
 }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
