@@ -332,4 +332,4 @@ def render_content(tab, btn1, btn2, btn3, btn4, btn5, btn6, rdd, Nickname, NClas
 
 
 if __name__ == '__main__':
-    app.run_server(Debug=True)
+    app.run_server(debug=True)
